@@ -11,7 +11,7 @@ const CreateUser = () => {
     //CREATE
     const Submit=(e)=>{
         e.preventDefault();
-        axios.post('http://localhost:3001/createUser',{
+        axios.post('http://https://user-database-manager.onrender.com/createUser',{
             "name":name,
             "email":email,
             "age":age
